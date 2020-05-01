@@ -137,3 +137,14 @@ ontologies:
     base_uri:
       - http://purl.obolibrary.org/obo/CLYH_
     ontology_purl: https://raw.githubusercontent.com/EBISPOT/clyh_ontology/master/clyh.owl
+    
+  - id: ecao
+    preferredPrefix: ECAO
+    title: The Echinoderm Anatomy and Development Ontology
+    definition_property:
+      - http://purl.obolibrary.org/obo/IAO_0000115
+    synonym_property:
+      - http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+    base_uri:
+      - http://purl.obolibrary.org/obo/ECAO_
+    ontology_purl: https://raw.githubusercontent.com/echinoderm-ontology/ecao_ontology/master/ecao.owl
